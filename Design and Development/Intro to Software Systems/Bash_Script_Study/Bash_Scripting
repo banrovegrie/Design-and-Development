@@ -1,0 +1,120 @@
+1. Basic Introduction
+
+> echo $SHELL
+> echo $HOME
+> echo $PATH
+
+2. Environment Variables 
+
+These are variables which are dynamically namesd value that can affect the processes on a computer.
+
+>env
+
+3. I/O Variables
+
+> read
+> echo
+> declare -i integer_type_variable
+> # gives data regarding number of elements
+> @ is our original string
+
+4. Using I/O Redirection
+
+In bash ">" and "<" symbols are used to print and take data to and from file respectively.
+Also "|" symbol is used for piping where we look for response on onme command over the other/previous one.
+Also, "tee" helps us to move from one command to another.
+
+> touch labs.txt
+> cat labs.txt > /dev/stdout
+> sort < labs.txt
+> grep -i "t" < labs.txt
+> find /<foldername>/ -size +800c
+> ls | wc -l
+> wc -l names.txt | tee -a file2.txt
+
+5. Controlling and Manipulating the Shell Script
+
+> cat /dev/random > /dev/null
+The above is a random number with no response.
+
+> cat /dev/random > /dev/null&
+This will run the editor and type text and stop. 
+
+> fg <jobnumber> 
+This is used to resume the background running job on to screen.
+
+> bg <jobnumber>
+This moves the job  to the background of the screen.
+
+> kill <jobnumber> 
+This is used to stop the job.
+
+6. Working with Built-In Variables and Manipulating Variables
+
+> echo $HOSTNAME
+> echo $0
+> echo $#
+
+> use \" \$ etc for formatting output variables
+
+7. Creating Functions
+
+function gcd() # function header
+{
+    -
+    -
+    -
+}
+gcd # calling the function
+
+8. Math Expressions
+
+> let
+> expr 23 + 29 # gives the  output with spaces being provided
+> expr 5 \* $1
+
+> a=$((21+26))
+> ((c+=3))
+
+Using the Basic Calculator
+> echo "579*2.5" | bc
+> current_bin_value = `bc <<< "obase=2; ${octate[$i]}"`
+
+Conversion of number between bases 
+> octet[$i] = `echo $ip_address | cut -d'.' -f$i`
+
+9. Test Command
+
+> test 27 -gt 2 && echo "Yes"
+> test 27 -lt 2 && echo "Yes" || echo "No"
+> test 25 -eq 25 && echo “Yes” || echo “No”
+> test 15 -ne 10 && echo Yes || echo No
+
+10. Working with Arrays
+
+> echo $depts
+> echo ${depts[*]}
+> echo ${depts[2]}
+> echo ${depts[3]}
+> depts[3] = "research"
+> echo ${#depts[*]}
+> echo ${depts[*]:2:1}
+> echo ${depts[*]/research/phd} replaces “research” element in the array with “phd” on runtime. However, echo ${depts[*]} still shows research as the change is only for runtime
+> echo sort <<< "${depts[*]}"
+
+11. The 'grep' command
+
+> grep search_string
+> -v : display all lines not matching the string
+> -i : match both (upper and lower) case
+> -f : shows just the name of the file with the string
+> -n : shows the matching line and its  number
+> -c : display only the count of matching lines
+
+12. The 'sort' command
+
+> sort file_name
+> -r : reverses
+> -n : sorts numerically
+> -f : case insensitive sort
+

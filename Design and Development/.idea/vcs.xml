@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Intro to Software Systems/ISS-Lab-1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Intro to Software Systems/save-jesus" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Software Systems/jquery" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Software Systems/stuff/flask-mysql-connect" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Software Systems/stuff/flask-mysql-insert" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Software Systems/stuff/flask-restless-get" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Software Systems/stuff/flask-sqlalchemy-dml" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Software Systems/stuff/flask-sqlalchemy-one-to-many" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Software Systems/stuff/flask-url_for" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Software Systems/stuff/flask-wtforms" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hacktoberfest" vcs="Git" />
+  </component>
+</project>

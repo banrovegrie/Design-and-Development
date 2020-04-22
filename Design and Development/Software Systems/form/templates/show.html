@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Reviews</title>
+    <link rel="stylesheet" href="/static/show.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <th id="id">ID</th>
+            <th id="name">NAME</th>
+            <th id="age">AGE</th>
+            <th id="comment">COMMENT</th>
+        </thead>
+        <tbody>
+            {% for review in data %}
+                <tr>
+                    <td class="subid">{{review.id}}</td>
+                    <td id="subname">{{review.name}}</td>
+                    <td id="subage">{{review.age}}</td>
+                    <td id="subcomment">{{review.comment}}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

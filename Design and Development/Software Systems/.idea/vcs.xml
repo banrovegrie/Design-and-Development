@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/jquery" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/stuff/flask-mysql-connect" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/stuff/flask-mysql-insert" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/stuff/flask-restless-get" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/stuff/flask-sqlalchemy-dml" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/stuff/flask-sqlalchemy-one-to-many" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/stuff/flask-url_for" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/stuff/flask-wtforms" vcs="Git" />
+  </component>
+</project>

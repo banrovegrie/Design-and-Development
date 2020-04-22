@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Dancing+Script|Gentium+Basic|Kalam|Monoton|Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One&display=swap');
+
+@media screen and (max-width: 800px) 
+{
+	.left, .main, .right 
+	{
+		width: 120%;
+	}
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body 
+{
+    background-image: url(img/hello.jpg);
+    background-size: cover;                   
+    background-repeat: repeat;
+    background-position: center center;
+}
+
+#sidebar
+{
+	position: fixed;
+	width: 200px;
+	height: 100%;
+	background: #151719;
+	left: -200px;
+	transition: all 500ms linear;
+}
+
+#sidebar.active
+{
+	left: 0px;
+}
+
+#sidebar ul li
+{
+	font-family: 'Monoton', cursive;
+	color: white;
+	text-align: center;
+	list-style: none;
+	padding: 15px 10px;
+	border-bottom: 1px solid rgba(100,100,100,0.3);
+}
+
+#sidebar .toggle-btn
+{
+	position: absolute;
+	left: 230px;
+	top: 20px;
+}
+#sidebar .toggle-btn span
+{
+	display: block;
+	width: 30px;
+	height: 5px;
+	background: orange;
+	margin: 5px 0px;
+}
+
+#sidebar ul li a:hover
+{
+	color: white;
+	font-family: 'Monoton', cursive;
+	text-align: center;
+	text-decoration: none;
+}
+
+#sidebar ul li a:link
+{
+	color: white;
+	font-family: 'Monoton', cursive;
+	text-align: center;
+	text-decoration: none;
+}
+
+#sidebar ul li a:visited
+{
+	color: white;
+	font-family: 'Monoton', cursive;
+	text-align: center;
+	text-decoration: none;
+}
+
+.navbar 
+{
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.navbar a 
+{
+	font-family: 'Kalam', cursive;
+	float: right;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	background: #663300;
+}
+
+.navbar p
+{
+	float: left;
+	display: block;
+	font-family: 'Allura', cursive;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 22px;
+	margin-left: 5px;
+}
+
+.navbar a:hover 
+{
+	background: #ddd;
+	color: black;
+}
+
+.main 
+{
+	padding: 16px;
+	margin-top: 55px;
+	height: 1500px; 
+}
+
+#hdg
+{
+	font-family: 'Sigmar One', cursive;
+	text-align: center;
+	font-size: 10vw;
+	text-decoration: none;
+	color: white;
+	margin-top: 10vw;
+}
+
+#parent
+{
+	padding: 10vw;
+	text-align: center;
+}
+
+#parent img
+{
+	display: inline-block;
+}
+
+#goTo
+{
+	border: none;
+	outline: none;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.15);
+	position: fixed;
+	bottom: 50;
+	right: 50;
+}
+
+i {
+	border: solid orange;
+	border-width: 0 10px 10px 0;
+	display: inline-block;
+	padding: 7px;
+}
+
+.up 
+{
+	transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+}
+
+#but
+{
+	font-family: 'Sigmar One', cursive;
+	border: none;
+	outline: none;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.0);
+	text-decoration: none;
+	padding: 5px;
+	color: white;
+	position: fixed;
+	bottom: 50;
+	left: 50;
+}
+
+#counter
+{
+	font-family: 'Sigmar One', cursive;
+	border: none;
+	outline: none;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.25);
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+	color: white;
+	position: fixed;
+	bottom: 50;
+	left: 50;
+}

@@ -1,0 +1,21 @@
+body {
+    background-color: blue;
+}
+
+table, th, td {
+    border: solid 1px black;
+}
+
+td {
+  background-color: green; 
+  transition: 0.5s; 
+}
+
+td:hover {
+    background-color: orange;
+    transition: 0.5s;
+}
+
+.hidden {
+    visibility: hidden;
+}
